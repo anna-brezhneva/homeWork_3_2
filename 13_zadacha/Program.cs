@@ -5,13 +5,15 @@
 //32679 -> 6
 Console.Clear();
 Console.WriteLine("Напишите любое число: ");
-string str = Console.ReadLine();
-int n = str.Length;
-if (n < 2)
+//string str = Console.ReadLine();
+//int n = str.Length;
+int a = int.Parse(Console.ReadLine());
+
+if (a > 99)
 {
-    Console.WriteLine("третьей цифры нет");
+   Console.WriteLine(a.ToString()[2]);
 }
 else 
 {
-    Console.WriteLine(str[2]);
+    Console.WriteLine("третьей цифры нет");
 }
