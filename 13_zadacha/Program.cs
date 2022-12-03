@@ -5,8 +5,6 @@
 //32679 -> 6
 Console.Clear();
 Console.WriteLine("Напишите любое число: ");
-//string str = Console.ReadLine();
-//int n = str.Length;
 int a = int.Parse(Console.ReadLine());
 
 if (a > 99)
